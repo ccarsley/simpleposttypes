@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Morten's Simple Post Types 
+ * Plugin Name: Claire's Simple Post Types 
  * Description: A simple plugin to add custom post types and taxonomies to a WordPress site. This plugin was created to demonstrate these principles and the principles of using GitHub and is not for general use. Do not expect it to work.
  * Version: 0.0.1
- * Author: Morten Rand-Hendriksen
+ * Author: Claire Carsley
  * Author URI: http://mor10.com
  * License: GPL2
  */
@@ -14,8 +14,8 @@ function mortens_simple_post_types() {
     
     // Set all the label names for the new post type
 	$labels = array(
-		'name'               => _x( 'Drawings', 'post type general name', 'simpleposttypes' ),
-		'singular_name'      => _x( 'Drawing', 'post type singular name', 'simpleposttypes' ),
+		'name'               => _x( 'Poop', 'post type general name', 'simpleposttypes' ),
+		'singular_name'      => _x( 'Poop', 'post type singular name', 'simpleposttypes' ),
 		'menu_name'          => _x( 'Drawings', 'admin menu', 'simpleposttypes' ),
 		'name_admin_bar'     => _x( 'Drawing', 'add new on admin bar', 'simpleposttypes' ),
 		'add_new'            => _x( 'Add New', 'drawing', 'simpleposttypes' ),
